@@ -13,20 +13,21 @@
     <div>
         <p class="currency-select">Currency Converter</p>
     </div>
-    <p class='action'>Currency to Convert From</p>
-    <select class='from' name="curFrom" id="select"></select>
-
-    <p class='action'>Currency to Convert To</p>
-    <select class='to' name="curTo" id="select"></select>
-
-    <div class='action'>
+    <div>
+        <p class='action'>Currency to Convert From</p>
+        <select class='from_currency' name="curFrom" id="from_currency"></select>
+        <input type="number" id="from_amount" placeholder="0" value=1 />
+    </div>
+    <div class="action">
+        <p>Convert</p>
+        <button id="exchange"></button>
+        <div class="rate" id="rate"></div>
+    </div>
+    <div class="currency">
+        <p class='action'>Currency to Convert To</p>
+        <select class='to_currency' name="curTo" id="to_currency"></select>
         <input type="number" id="toAmount" placeholder="0" />
     </div>
-
-    <div class="convert">
-        <button id="convert-button" type="button">Convert</button>
-    </div>
-
 
 </body>
 
