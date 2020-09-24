@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Currency Converter</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" async></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
-<body>
+
+<body class='main-container'>
+    <div>
+        <p class="currency-select">Currency Converter</p>
+    </div>
+    <p class='action'>Currency to Convert From</p>
+    <select class='from' name="curFrom" id="select"></select>
+
+    <p class='action'>Currency to Convert To</p>
+    <select class='to' name="curTo" id="select"></select>
+
+    <div class='action'>
+        <input type="number" id="toAmount" placeholder="0" />
+    </div>
+
+    <div class="convert">
+        <button id="convert-button" type="button">Convert</button>
+    </div>
+
 
 </body>
+
 </html>

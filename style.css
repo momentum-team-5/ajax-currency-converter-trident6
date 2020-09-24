@@ -1,5 +1,26 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+}
+
+.main-container {
+    box-sizing: border-box;
+    margin: 5rem;
+}
+
+.currency-select {
+    box-sizing: border-box;
+    margin: 1rem;
+    margin-left: 0rem;
+    font-size: 2rem;
+}
+
+.action {
+    box-sizing: border-box;
+    margin-top: 1rem;
+    margin-bottom: .25rem;
+    margin-left: 0rem;
+    font-size: 1.25rem;
 }
